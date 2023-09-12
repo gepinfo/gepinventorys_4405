@@ -1,0 +1,86 @@
+<svg version="1.1" baseProfile="full" width="383.0" height="801.0" viewbox="0 0 383 801" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+[&lt;interface&gt;featureinventory|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+item_uuid: { type: String; };+name: { type: String; };+type: { type: String; };+description: { type: String; };+attachments: { type: String; };+price: { type: String; };+price_currency_type: { type: String; };+cost: { type: String; };+cost_currency_type: { type: String; };+tag: { type: String; };+isMatrix: { type: String; };+matrixid: { type: String; };+warehouse: { type: String; };+warehouse_loc: { type: String; };+lot_or_batch_num: { type: String; };+manufacturer: { type: String; };+manufacture_country: { type: String; };+external_reference_one: { type: String; };+gephistoryid: { type: String; }|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="801.0" width="383.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="featureinventory">
+<g fill="lightblue" stroke="#33322E" data-name="featureinventory">
+<rect x="0.0" y="0.0" height="745.0" width="327.0" data-name="featureinventory"></rect>
+<path d="M0.0 31.0 L327.0 31.0" fill="none" data-name="featureinventory"></path>
+<path d="M0.0 737.0 L327.0 737.0" fill="none" data-name="featureinventory"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="featureinventory">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="featureinventory">
+<a id="../application/services/diagrams/serviceModels/featureinventory.ts.featureinventory" xlink:href="../application/services/diagrams/serviceModels/featureinventory.ts"><text x="155.5" y="13.5" stroke="none" text-anchor="middle" data-name="featureinventory">featureinventory</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="featureinventory">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="featureinventory">
+<text x="0.0" y="13.5" stroke="none" data-name="featureinventory">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="featureinventory">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="featureinventory">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="featureinventory">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="featureinventory">+item_uuid: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="featureinventory">+name: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="193.5" stroke="none" data-name="featureinventory">+type: { type: String</text>
+<text x="0.0" y="208.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="223.5" stroke="none" data-name="featureinventory">+description: { type: String</text>
+<text x="0.0" y="238.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="253.5" stroke="none" data-name="featureinventory">+attachments: { type: String</text>
+<text x="0.0" y="268.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="283.5" stroke="none" data-name="featureinventory">+price: { type: String</text>
+<text x="0.0" y="298.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="313.5" stroke="none" data-name="featureinventory">+price_currency_type: { type: String</text>
+<text x="0.0" y="328.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="343.5" stroke="none" data-name="featureinventory">+cost: { type: String</text>
+<text x="0.0" y="358.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="373.5" stroke="none" data-name="featureinventory">+cost_currency_type: { type: String</text>
+<text x="0.0" y="388.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="403.5" stroke="none" data-name="featureinventory">+tag: { type: String</text>
+<text x="0.0" y="418.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="433.5" stroke="none" data-name="featureinventory">+isMatrix: { type: String</text>
+<text x="0.0" y="448.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="463.5" stroke="none" data-name="featureinventory">+matrixid: { type: String</text>
+<text x="0.0" y="478.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="493.5" stroke="none" data-name="featureinventory">+warehouse: { type: String</text>
+<text x="0.0" y="508.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="523.5" stroke="none" data-name="featureinventory">+warehouse_loc: { type: String</text>
+<text x="0.0" y="538.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="553.5" stroke="none" data-name="featureinventory">+lot_or_batch_num: { type: String</text>
+<text x="0.0" y="568.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="583.5" stroke="none" data-name="featureinventory">+manufacturer: { type: String</text>
+<text x="0.0" y="598.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="613.5" stroke="none" data-name="featureinventory">+manufacture_country: { type: String</text>
+<text x="0.0" y="628.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="643.5" stroke="none" data-name="featureinventory">+external_reference_one: { type: String</text>
+<text x="0.0" y="658.5" stroke="none" data-name="featureinventory">}</text>
+<text x="0.0" y="673.5" stroke="none" data-name="featureinventory">+gephistoryid: { type: String</text>
+<text x="0.0" y="688.5" stroke="none" data-name="featureinventory">}</text>
+
+</g>
+</g>
+<g transform="translate(0, 737)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="featureinventory">
+<g transform="translate(8, 8)" fill="#33322E" data-name="featureinventory">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

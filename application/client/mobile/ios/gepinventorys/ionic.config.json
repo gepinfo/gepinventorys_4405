@@ -1,0 +1,7 @@
+{
+  "name": "gepinventorys",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

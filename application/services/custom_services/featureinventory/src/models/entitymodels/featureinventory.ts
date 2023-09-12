@@ -1,0 +1,30 @@
+
+export interface featureinventory 
+{
+   created_date: { type: Date },
+   created_by: { type: String },
+   last_modified_by: { type: String },
+   last_modified_date: { type: Date },
+   item_uuid: { type: String },
+   name: { type: String },
+   type: { type: String },
+   description: { type: String },
+   attachments: { type: String },
+   price: { type: String },
+   price_currency_type: { type: String },
+   cost: { type: String },
+   cost_currency_type: { type: String },
+   tag: { type: String },
+   isMatrix: { type: String },
+   matrixid: { type: String },
+   warehouse: { type: String },
+   warehouse_loc: { type: String },
+   lot_or_batch_num: { type: String },
+   manufacturer: { type: String },
+   manufacture_country: { type: String },
+   external_reference_one: { type: String },
+   gephistoryid: { type: String }
+}
+
+
+

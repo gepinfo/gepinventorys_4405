@@ -1,0 +1,46 @@
+<h2 class="screen-align">Getallgepinventory</h2>
+<div name="grid_template-ib64" class="">
+    <div class="tableBg">
+        <table id="table" class="table table-bordered  table-striped table-curved"
+        data-show-header="true" data-pagination="true" data-id-field="name">
+            <thead class="table table-hover">
+                <tr>
+                    <th *ngFor="let column of columnDefs">{{column.headerName}}</th>
+                </tr>
+            </thead>
+            <tbody class="table-design" *ngIf="rowData.length==0">
+                <td style="text-align: center;" colspan="5">No Data Found</td>
+            </tbody>
+            <tbody class="table-design" *ngIf="rowData.length>0">
+                <tr *ngFor="let values of rowData | slice: (page-1) * paginationPageSize :(page-1) * paginationPageSize + paginationPageSize">
+                    <td>{{ values.item_uuid }}</td>
+                    <td>{{ values.type }}</td>
+                    <td>{{ values.description }}</td>
+                    <td>{{ values.name }}</td>
+                    <td>{{ values.attachments }}</td>
+                    <td>{{ values.price }}</td>
+                    <td>{{ values.price_currency_type }}</td>
+                    <td>{{ values.cost }}</td>
+                    <td>{{ values.cost_currency_type }}</td>
+                    <td>{{ values.tag }}</td>
+                    <td>{{ values.isMatrix }}</td>
+                    <td>{{ values.warehouse }}</td>
+                    <td>{{ values.warehouse_loc }}</td>
+                    <td>{{ values.manufacturer }}</td>
+                    <td>{{ values.manufacture_country }}</td>
+                    <td>{{ values.lot_or_batch_num }}</td>
+                    <td>{{ values.external_reference_one }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bottomPage">
+        <div class="text-right">
+            <ngb-pagination class="d-flex justify-content-start" [(page)]="page" [maxSize]="5"
+            [rotate]="true" [pageSize]="paginationPageSize" [collectionSize]="rowData.length"
+            [boundaryLinks]="true"></ngb-pagination>
+        </div>
+    </div>
+    <div id="myGrid" class=""></div>
+</div>
+<div id="myGrid" class="ag-theme-alpine "></div>
